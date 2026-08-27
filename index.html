@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Christian Barrett | Civil Designer and VDC Coordinator, Myrtle Beach SC</title>
+<meta name="description" content="Christian Barrett is a civil designer and VDC coordinator in Myrtle Beach, South Carolina. Twenty five years in land development, AutoCAD Civil 3D standards, plan review, tools, and AI implementation for design firms.">
+<link rel="canonical" href="https://christianbarrett.info/">
+<meta name="author" content="Christian Barrett">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Christian Barrett">
+<meta property="og:description" content="Civil designer and VDC coordinator in Myrtle Beach, South Carolina. Civil 3D standards, plan review, tools, and AI implementation for design firms.">
+<meta property="og:url" content="https://christianbarrett.info/">
+<meta property="og:image" content="https://christianbarrett.info/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Christian Barrett, civil designer and VDC coordinator, Myrtle Beach, South Carolina, laid out as a plan sheet title block">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Christian Barrett">
+<meta name="twitter:description" content="Civil designer and VDC coordinator in Myrtle Beach, South Carolina. Civil 3D standards, plan review, tools, and AI implementation for design firms.">
+<meta name="twitter:image" content="https://christianbarrett.info/og-image.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231E242B'/%3E%3Crect x='5' y='5' width='22' height='22' fill='none' stroke='%23FCFBF9' stroke-width='1.5'/%3E%3Cpath d='M16 9 L20 23 L16 20 L12 23 Z' fill='%23C0182E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Newsreader:opsz,wght@6..72,300..600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Christian Barrett",
+  "jobTitle": "VDC Coordinator",
+  "url": "https://christianbarrett.info/",
+  "email": "christian@newrootsdevelopment.co",
+  "address": { "@type": "PostalAddress", "addressLocality": "Myrtle Beach", "addressRegion": "SC", "addressCountry": "US" },
+  "worksFor": { "@type": "Organization", "name": "Development Resource Group" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Augusta Technical College" },
+  "image": "https://christianbarrett.info/og-image.png",
+  "owns": { "@type": "Organization", "name": "New Roots Development LLC", "url": "https://newrootsdevelopment.co" },
+  "knowsAbout": ["AutoCAD Civil 3D", "Land development design", "CAD standards", "Virtual Design and Construction", "Civil plan review", "Land surveying support", "UAS operations"]
+}
+</script>
+<style>
+:root{
+  --ground:#1E242B;
+  --ground-deep:#161B20;
+  --sheet:#FCFBF9;
+  --ink:#14181C;
+  --graphite:#59636E;
+  --hairline:#C7CBD0;
+  --hairline-soft:#E2E4E6;
+  --rev-red:#C0182E;
+  --rev-blue:#1D5E93;
+  --tahoma:Tahoma,"Segoe UI",Verdana,Geneva,sans-serif;
+  --display:"Archivo",Tahoma,sans-serif;
+  --body:"Newsreader",Georgia,serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--ground);
+  background-image:
+    linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+  background-size:48px 48px;
+  color:var(--ink);
+  font-family:var(--body);
+  font-optical-sizing:auto;
+}
+a{color:var(--rev-blue)}
+:focus-visible{outline:2px solid var(--rev-blue);outline-offset:3px}
+.skip{position:absolute;left:-9999px;top:0}
+.skip:focus{left:12px;top:12px;background:var(--sheet);padding:8px 12px;z-index:20;font-family:var(--tahoma);font-size:12px}
+
+/* ---------- plot area ---------- */
+.plot{padding:clamp(14px,3.2vw,46px)}
+.sheet{
+  position:relative;
+  max-width:1220px;
+  margin:0 auto;
+  background:var(--sheet);
+  border:1.5px solid var(--ink);
+  box-shadow:0 22px 60px rgba(0,0,0,.45);
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 250px;
+  animation:sheetin .7s cubic-bezier(.2,.7,.3,1) both;
+}
+.sheet::before{
+  content:"";position:absolute;inset:7px;border:.5px solid var(--hairline);pointer-events:none;
+}
+@keyframes sheetin{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
+/* plot stamp on the sheet edge */
+.stamp{
+  position:absolute;left:-1px;top:96px;
+  transform-origin:left top;transform:rotate(90deg) translateX(0);
+  font-family:var(--tahoma);font-size:8.5px;letter-spacing:.22em;color:var(--graphite);
+  white-space:nowrap;text-transform:uppercase;padding-left:6px;
+}
+
+/* ---------- drawing area ---------- */
+.drawing{padding:clamp(26px,4vw,62px) clamp(22px,4vw,58px) 34px}
+.eyebrow{
+  font-family:var(--tahoma);font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--graphite);margin:0 0 20px;
+}
+h1{
+  font-family:var(--display);
+  font-variation-settings:"wdth" 88;
+  font-weight:700;
+  text-transform:uppercase;
+  font-size:clamp(2.5rem,8.4vw,5.4rem);
+  line-height:.92;
+  letter-spacing:-.015em;
+  margin:0 0 22px;
+}
+h1 .rule{display:block;height:3px;background:var(--ink);width:100%;margin-top:18px}
+.lede{
+  font-size:clamp(1.15rem,2.05vw,1.5rem);
+  font-weight:300;line-height:1.42;max-width:30ch;margin:0 0 6px;
+}
+.lede b{font-weight:600}
+.hero-meta{
+  display:flex;flex-wrap:wrap;gap:6px 26px;margin-top:26px;
+  font-family:var(--tahoma);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--graphite);
+}
+.hero{padding-bottom:44px}
+
+/* section device */
+section{padding:38px 0 4px;border-top:.5px solid var(--hairline)}
+.shead{display:flex;align-items:baseline;gap:14px;margin:0 0 26px}
+.shead .num{
+  font-family:var(--tahoma);font-size:10.5px;letter-spacing:.1em;color:var(--rev-red);
+  border:1px solid var(--rev-red);padding:2px 5px;line-height:1;
+}
+.shead h2{
+  font-family:var(--display);font-variation-settings:"wdth" 94;font-weight:600;
+  text-transform:uppercase;letter-spacing:.14em;font-size:.86rem;margin:0;
+}
+.shead .fill{flex:1;height:1px;background:var(--hairline-soft)}
+
+/* prose */
+.prose{max-width:64ch;font-size:1.06rem;line-height:1.62}
+.prose p{margin:0 0 1.05em}
+.prose p:last-child{margin-bottom:0}
+
+/* capabilities */
+.caps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--hairline-soft);border:1px solid var(--hairline-soft)}
+.cap{background:var(--sheet);padding:22px 24px 26px}
+.cap h3{
+  font-family:var(--tahoma);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  margin:0 0 12px;color:var(--ink);
+}
+.cap p{margin:0;font-size:1rem;line-height:1.55;color:#2C333A}
+
+/* revision block */
+.revtable{width:100%;border-collapse:collapse;font-family:var(--tahoma);font-size:12.5px}
+.revtable th{
+  text-align:left;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;font-weight:normal;
+  color:var(--graphite);border-bottom:1.5px solid var(--ink);padding:0 10px 7px;
+}
+.revtable td{padding:11px 10px;border-bottom:.5px solid var(--hairline-soft);vertical-align:top;line-height:1.5}
+.revtable tr:last-child td{border-bottom:none}
+.revtable .c-rev{width:46px;letter-spacing:.06em}
+.revtable .c-date{width:104px;white-space:nowrap;letter-spacing:.06em}
+tr.r-current td{color:var(--rev-red)}
+tr.r-prev td{color:var(--rev-blue)}
+tr.r-old td{color:var(--graphite)}
+.revnote{
+  font-family:var(--tahoma);font-size:10px;letter-spacing:.06em;color:var(--graphite);
+  margin:14px 0 0;line-height:1.6;
+}
+
+/* credentials */
+.creds{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 34px}
+.creds li{
+  display:flex;gap:12px;padding:11px 0;border-bottom:.5px solid var(--hairline-soft);
+  font-family:var(--tahoma);font-size:12.5px;line-height:1.45;
+}
+.creds li::before{content:"";flex:0 0 7px;height:7px;margin-top:5px;background:var(--ink);transform:rotate(45deg)}
+.creds .pending{color:var(--graphite)}
+
+/* contact */
+.contact{display:flex;flex-wrap:wrap;gap:34px 56px;align-items:flex-start}
+.contact .lead{max-width:38ch;font-size:1.06rem;line-height:1.6;margin:0}
+.clist{margin:0;font-family:var(--tahoma);font-size:12.5px;line-height:1.9}
+.clist dt{color:var(--graphite);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;margin-top:12px}
+.clist dt:first-child{margin-top:0}
+.clist dd{margin:0}
+.clist a{text-decoration:none;border-bottom:1px solid rgba(29,94,147,.35)}
+.clist a:hover{border-bottom-color:var(--rev-blue)}
+
+.sheetfoot{
+  margin-top:44px;border-top:.5px solid var(--hairline);padding-top:12px;
+  font-family:var(--tahoma);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--graphite);
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+}
+
+/* ---------- title block ---------- */
+.titleblock{border-left:1.5px solid var(--ink);display:flex;flex-direction:column}
+.tb-inner{position:sticky;top:0}
+.tb-cell{border-bottom:.5px solid var(--hairline);padding:13px 16px}
+.tb-cell:last-child{border-bottom:none}
+.tb-label{
+  font-family:var(--tahoma);font-size:8.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--graphite);
+  display:block;margin-bottom:5px;
+}
+.tb-val{font-family:var(--tahoma);font-size:11.5px;line-height:1.45;letter-spacing:.02em}
+.tb-name{
+  font-family:var(--display);font-variation-settings:"wdth" 84;font-weight:700;text-transform:uppercase;
+  font-size:1.02rem;letter-spacing:.02em;line-height:1.1;margin:0;
+}
+.tb-index{list-style:none;margin:0;padding:0}
+.tb-index li{margin:0 0 1px}
+.tb-index a{
+  display:flex;gap:9px;text-decoration:none;color:var(--ink);
+  font-family:var(--tahoma);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+  padding:4px 0;
+}
+.tb-index a span{color:var(--graphite);font-size:9.5px;letter-spacing:.06em;padding-top:1px}
+.tb-index a:hover{color:var(--rev-red)}
+.tb-index a:hover span{color:var(--rev-red)}
+.tb-index a.on{color:var(--rev-red)}
+.tb-index a.on span{color:var(--rev-red)}
+.tb-north{display:flex;align-items:center;gap:14px}
+.tb-north svg{display:block}
+.tb-grid{display:grid;grid-template-columns:1fr 1fr}
+.tb-grid > div{padding:13px 16px;border-bottom:.5px solid var(--hairline)}
+.tb-grid > div:first-child{border-right:.5px solid var(--hairline)}
+
+/* stagger in */
+.fade{animation:fade .6s ease both}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.d1{animation-delay:.16s}.d2{animation-delay:.26s}.d3{animation-delay:.36s}
+
+/* ---------- responsive ---------- */
+@media (max-width:900px){
+  .sheet{grid-template-columns:minmax(0,1fr)}
+  .titleblock{border-left:none;border-top:1.5px solid var(--ink);order:2}
+  .tb-inner{position:static}
+  .stamp{display:none}
+  .caps{grid-template-columns:minmax(0,1fr)}
+  .creds{grid-template-columns:minmax(0,1fr)}
+  .tb-index{display:flex;flex-wrap:wrap;gap:0 22px}
+}
+@media (max-width:560px){
+  .revtable{font-size:11.5px}
+  .revtable .c-date{width:78px}
+  .revtable td,.revtable th{padding-left:6px;padding-right:6px}
+  h1{font-size:clamp(2.1rem,10vw,3rem)}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important;transition:none !important}
+}
+@media print{
+  body{background:#fff}
+  .plot{padding:0}
+  .sheet{box-shadow:none;max-width:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#profile">Skip to profile</a>
+
+<div class="plot">
+<div class="sheet">
+
+  <div class="stamp">Plotted 2026.08.27 &nbsp;&middot;&nbsp; christianbarrett.info</div>
+
+  <main class="drawing">
+
+    <div class="hero">
+      <p class="eyebrow fade">Land development &nbsp;&middot;&nbsp; Civil 3D &nbsp;&middot;&nbsp; VDC</p>
+      <h1 class="fade d1">Christian<br>Barrett<span class="rule"></span></h1>
+      <p class="lede fade d2">I make land development drawings <b>consistent</b>, and I build the standards, tools, and training that keep them that way.</p>
+      <div class="hero-meta fade d3">
+        <span>Myrtle Beach, South Carolina</span>
+        <span>25 years in land development</span>
+        <span>Autodesk Authorized Instructor</span>
+      </div>
+    </div>
+
+    <section id="profile">
+      <div class="shead"><span class="num">01</span><h2>Profile</h2><span class="fill"></span></div>
+      <div class="prose">
+        <p>Christian Barrett is a civil designer and VDC coordinator in Myrtle Beach, South Carolina, with about twenty five years in land development. Most of that has been spent in AutoCAD Civil 3D, moving projects from raw survey through construction documents and closeout in Horry County, Myrtle Beach, North Myrtle Beach, and Brunswick County, North Carolina.</p>
+        <p>At Development Resource Group he is the VDC Coordinator. He owns the CAD standards, runs plan production QC, coordinates the outsourced production team, and writes the automation that keeps a set consistent from the title sheet to the last detail.</p>
+        <p>Through New Roots Development, his own practice since 2018, he builds and licenses Civil 3D tools, teaches the software as an Autodesk Authorized Instructor, and helps design firms put AI to work inside the workflows they already run. He is an Autodesk developer publishing tools for Civil 3D, and an FAA Part 107 remote pilot studying UAS maintenance at Horry Georgetown Technical College.</p>
+        <p>Earlier he ran CADTECHS, his own Autodesk training and consulting practice, spent four years supporting Autodesk and its reseller channel as an AEC applications specialist across twelve states, wrote The Civil Side for AUGI, and grew the largest Civil 3D user group on LinkedIn past ten thousand members before selling it. Before CAD he framed houses, ran a forklift, fabricated steel, and programmed CNC machines. That is still how he reads a set of plans.</p>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="shead"><span class="num">02</span><h2>What I do</h2><span class="fill"></span></div>
+      <div class="caps">
+        <div class="cap">
+          <h3>VDC coordination and CAD standards</h3>
+          <p>Templates, styles, plot standards, and file structure for a full production office. Deployment, workstation configuration, and the documentation that keeps every seat drawing the same way.</p>
+        </div>
+        <div class="cap">
+          <h3>Civil 3D training and support</h3>
+          <p>Surfaces, corridors, pipe networks, data shortcuts, and sheet production, taught against real project work instead of sample files. Onboarding, one on one support, and workflow rebuilds.</p>
+        </div>
+        <div class="cap">
+          <h3>Plan review and QC</h3>
+          <p>Pre submittal review of civil plan sets against agency requirements and company standards. Findings written the way a reviewer writes them, so the set gets fixed once instead of three times.</p>
+        </div>
+        <div class="cap">
+          <h3>Tools, automation, and AI</h3>
+          <p>Custom Civil 3D commands, rule based drawing audits, and quantity takeoff templates. Practical AI implementation for design firms, built into the workflow and maintained after it ships.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="history">
+      <div class="shead"><span class="num">03</span><h2>History</h2><span class="fill"></span></div>
+      <table class="revtable">
+        <thead>
+          <tr><th class="c-rev" scope="col">Rev</th><th class="c-date" scope="col">Date</th><th scope="col">Description</th></tr>
+        </thead>
+        <tbody>
+          <tr class="r-current"><td class="c-rev">06</td><td class="c-date">Current</td><td>Development Resource Group, Myrtle Beach. VDC Coordinator. Standards, production QC, and automation.</td></tr>
+          <tr class="r-prev"><td class="c-rev">05</td><td class="c-date">2026</td><td>New Roots Development LLC. Civil 3D tool suite for the 2026 and 2027 releases, plus AI implementation for design firms.</td></tr>
+          <tr class="r-old"><td class="c-rev">04</td><td class="c-date">2019</td><td>FAA Part 107 remote pilot certificate. Aerial survey support and site documentation.</td></tr>
+          <tr class="r-old"><td class="c-rev">03</td><td class="c-date">2018</td><td>New Roots Development founded. Design and consulting work in California, New Mexico, and South Carolina.</td></tr>
+          <tr class="r-old"><td class="c-rev">02</td><td class="c-date">2011</td><td>AUGI World cover article. The Civil Side column for AUGI HotNews.</td></tr>
+          <tr class="r-old"><td class="c-rev">01</td><td class="c-date">2010</td><td>CADTECHS. Autodesk training and consulting practice.</td></tr>
+        </tbody>
+      </table>
+      <p class="revnote">Prior to Rev 01: AEC applications specialist supporting Autodesk and its reseller channel in twelve states. Before that, construction trades, steel fabrication, and CNC programming. Revision colors follow the standard, current red, previous blue, earlier revisions grey.</p>
+    </section>
+
+    <section id="credentials">
+      <div class="shead"><span class="num">04</span><h2>Credentials</h2><span class="fill"></span></div>
+      <ul class="creds">
+        <li>Autodesk Authorized Instructor</li>
+        <li>Autodesk Developer</li>
+        <li>FAA Part 107 Remote Pilot, 2019</li>
+        <li>AutoCAD Civil 3D, every release since the first</li>
+        <li>CAD drafting, Augusta Technical College</li>
+        <li class="pending">UAS Maintenance Technology, Horry Georgetown Technical College, in progress</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <div class="shead"><span class="num">05</span><h2>Contact</h2><span class="fill"></span></div>
+      <div class="contact">
+        <p class="lead">Training, consulting, plan review, and implementation work goes through New Roots Development. Tell me what the set has to do and where it has to go.</p>
+        <dl class="clist">
+          <dt>Email</dt>
+          <dd><a href="mailto:christian@newrootsdevelopment.co">christian@newrootsdevelopment.co</a></dd>
+          <dt>Practice</dt>
+          <dd><a href="https://newrootsdevelopment.co">newrootsdevelopment.co</a></dd>
+          <dt>Employer</dt>
+          <dd><a href="https://drgpllc.com">drgpllc.com</a></dd>
+        </dl>
+      </div>
+    </section>
+
+    <div class="sheetfoot">
+      <span>&copy; 2026 Christian Barrett</span>
+      <span>Myrtle Beach, South Carolina</span>
+    </div>
+
+  </main>
+
+  <aside class="titleblock">
+    <div class="tb-inner">
+
+      <div class="tb-cell">
+        <span class="tb-label">Sheet index</span>
+        <ul class="tb-index">
+          <li><a href="#profile"><span>01</span>Profile</a></li>
+          <li><a href="#work"><span>02</span>What I do</a></li>
+          <li><a href="#history"><span>03</span>History</a></li>
+          <li><a href="#credentials"><span>04</span>Credentials</a></li>
+          <li><a href="#contact"><span>05</span>Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="tb-cell">
+        <span class="tb-label">Name</span>
+        <p class="tb-name">Christian Barrett</p>
+      </div>
+
+      <div class="tb-cell">
+        <span class="tb-label">Title</span>
+        <div class="tb-val">VDC Coordinator, Autodesk Developer</div>
+      </div>
+
+      <div class="tb-cell">
+        <span class="tb-label">Practice</span>
+        <div class="tb-val">New Roots Development LLC</div>
+      </div>
+
+      <div class="tb-cell">
+        <span class="tb-label">Location</span>
+        <div class="tb-val">Myrtle Beach<br>South Carolina</div>
+      </div>
+
+      <div class="tb-grid">
+        <div>
+          <span class="tb-label">Scale</span>
+          <div class="tb-val">N.T.S.</div>
+        </div>
+        <div>
+          <span class="tb-label">Sheet</span>
+          <div class="tb-val">1 of 1</div>
+        </div>
+      </div>
+
+      <div class="tb-cell tb-north">
+        <svg width="30" height="46" viewBox="0 0 30 46" aria-hidden="true">
+          <path d="M15 4 L23 34 L15 28 L7 34 Z" fill="none" stroke="#14181C" stroke-width="1.2" stroke-linejoin="miter"/>
+          <path d="M15 4 L15 28 L7 34 Z" fill="#14181C"/>
+          <text x="15" y="45" text-anchor="middle" font-family="Tahoma, sans-serif" font-size="10" letter-spacing="1" fill="#14181C">N</text>
+        </svg>
+        <div>
+          <span class="tb-label">Issued</span>
+          <div class="tb-val">2026.08.27</div>
+        </div>
+      </div>
+
+    </div>
+  </aside>
+
+</div>
+</div>
+
+<script>
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll('.tb-index a'));
+  var map = {};
+  links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+  if(!('IntersectionObserver' in window)) return;
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){
+        links.forEach(function(a){ a.classList.remove('on'); });
+        if(map[e.target.id]) map[e.target.id].classList.add('on');
+      }
+    });
+  },{rootMargin:'-25% 0px -65% 0px'});
+  document.querySelectorAll('main section').forEach(function(s){ obs.observe(s); });
+})();
+</script>
+</body>
+</html>
