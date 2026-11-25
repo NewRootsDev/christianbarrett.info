@@ -20,7 +20,7 @@
 <meta name="twitter:title" content="Christian Barrett">
 <meta name="twitter:description" content="VDC coordinator and Autodesk developer in Myrtle Beach, South Carolina. Civil 3D standards, plan review, and AI implementation for businesses and individuals.">
 <meta name="twitter:image" content="https://christianbarrett.info/og-image.png">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231E242B'/%3E%3Crect x='5' y='5' width='22' height='22' fill='none' stroke='%23FCFBF9' stroke-width='1.5'/%3E%3Cpath d='M16 9 L20 23 L16 20 L12 23 Z' fill='%23C0182E'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231E242B'/%3E%3Crect x='5' y='5' width='22' height='22' fill='none' stroke='%23FCFBF9' stroke-width='1.5'/%3E%3Cpath d='M16 9 L20 23 L16 20 L12 23 Z' fill='%231D5E93'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Newsreader:opsz,wght@6..72,300..600&display=swap" rel="stylesheet">
@@ -130,8 +130,8 @@ h1 .rule{display:block;height:3px;background:var(--ink);width:100%;margin-top:18
 section{padding:38px 0 4px;border-top:.5px solid var(--hairline)}
 .shead{display:flex;align-items:baseline;gap:14px;margin:0 0 26px}
 .shead .num{
-  font-family:var(--tahoma);font-size:10.5px;letter-spacing:.1em;color:var(--rev-red);
-  border:1px solid var(--rev-red);padding:2px 5px;line-height:1;
+  font-family:var(--tahoma);font-size:10.5px;letter-spacing:.1em;color:var(--rev-blue);
+  border:1px solid var(--rev-blue);padding:2px 5px;line-height:1;
 }
 .shead h2{
   font-family:var(--display);font-variation-settings:"wdth" 94;font-weight:600;
@@ -214,16 +214,16 @@ tr.r-old td{color:var(--graphite)}
 }
 .tb-index{list-style:none;margin:0;padding:0}
 .tb-index li{margin:0 0 1px}
-.tb-index a{
+.tb-index a{transition:color .15s;
   display:flex;gap:9px;text-decoration:none;color:var(--ink);
   font-family:var(--tahoma);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
   padding:4px 0;
 }
 .tb-index a span{color:var(--graphite);font-size:9.5px;letter-spacing:.06em;padding-top:1px}
-.tb-index a:hover{color:var(--rev-red)}
-.tb-index a:hover span{color:var(--rev-red)}
-.tb-index a.on{color:var(--rev-red)}
-.tb-index a.on span{color:var(--rev-red)}
+.tb-index a:hover{color:var(--rev-blue)}
+.tb-index a:hover span{color:var(--rev-blue)}
+.tb-index a.on{color:var(--rev-blue);font-weight:700}
+.tb-index a.on span{color:var(--rev-blue)}
 .tb-north{display:flex;align-items:center;gap:14px}
 .tb-north svg{display:block}
 .tb-grid{display:grid;grid-template-columns:1fr 1fr}
